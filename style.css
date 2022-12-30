@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Space+Grotesk&display=swap');
+
+body {
+    background: #1f1f1f;
+}
+
+.font-style{
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: -0.5px;
+    margin: 10px;
+    color: #DEDEDE;
+}
+
+.home{
+    position: absolute;
+    width: 48px;
+    height: 23px;
+    left: calc(50% - 48px/2 + 354px);
+    top: 30px;
+}
+
+.work {
+    position: absolute;
+    width: 43px;
+    height: 23px;
+    left: calc(50% - 43px/2 + 457.5px);
+    top: 30px;
+}
+
+.contact {
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: calc(50% - 68px/2 + 576px);
+    top: 30px;
+}
+
+.logo {
+    position: absolute;
+    width: 148px;
+    height: 32px;
+    left: 73px;
+    top: 24px;
+}
+
+.menu {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: calc(50% - 1440px/2);
+    top: 0px;
+
+    background: #323232;
+    backdrop-filter: blur(10px);
+}
+
+.author{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 838px;
+    top: 209px;
+    margin: 10px;
+    background: #494949;
+    border-radius: 200px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 0 0 7px #666;
+}
+
+h1 {
+    position: absolute;
+    width: 824px;
+    height: 192px;
+    left: 96px;
+    top: 240px;
+    padding: 0 50px 0 0;
+    margin-right: 50px;
+}
+
+h5 {
+    position: absolute;
+    width: 824px;
+    height: 90px;
+    left: 96px;
+    top: 456px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px;
+    gap: 16px;
+
+    position: absolute;
+    width: 275.57px;
+    height: 57px;
+    left: 96px;
+    top: 634px;
+
+    background: #9D9D9D;
+    border-radius: 4px;
+}
+
+.featured_work {
+    width: 150px;
+    height: 16px;
+
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #DEDEDE;
+
+    opacity: 0.7;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.font-main h1 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    /* or 119% */
+
+    letter-spacing: -0.5px;
+
+    color: #DEDEDE;
+}
+
+.font-main h5 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: -0.5px;
+
+    color: #959595;
+}
+
+.featured_work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 32px;
+
+    position: absolute;
+    width: 198px;
+    height: 48px;
+    left: 96px;
+    top: 836px;
+}
+
+.featured_work h4{
+    width: 150px;
+    height: 16px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #DEDEDE;
+
+    opacity: 0.7;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.font-footer {
+    position: absolute;
+    width: 266px;
+    height: 36px;
+    left: calc(50% - 266px/2 - 491px);
+    bottom: 36px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    /* identical to box height, or 225% */
+
+    letter-spacing: -0.5px;
+
+    color: #959595;
+}
+
+.font-footer span {
+    color: #ECECEC;
+}
